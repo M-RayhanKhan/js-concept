@@ -19,4 +19,6 @@ const cheap = products.filter(p => p.price <= 5000);
 // console.log(cheap);
 
 const specificName = products.filter(p => p.name.includes('s'));
-console.log(specificName);
+// console.log(specificName);
+
+const special = products.find(p => p.name.includes('a'))
